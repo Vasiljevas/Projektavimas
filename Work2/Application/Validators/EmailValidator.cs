@@ -1,4 +1,5 @@
 ﻿using System;
+using Common.CharCounter;
 
 namespace Validators
 {
@@ -8,7 +9,12 @@ namespace Validators
         // Appears only once
         public bool IsValidAtSign(string email)
         {
-            throw new NotImplementedException();
+            int numberOfChars = CharCounter.CountChars(email, '@');
+            if(numberOfChars !== 1 || email.StartsWith('@') || email.EndsWith('@'))  
+            {
+                return false;
+            }
+            return true;
         }
 
         // uppercase and lowercase Latin letters A to Z and a to z
@@ -18,7 +24,7 @@ namespace Validators
         // after it @ should follow
         public bool IsValidLocalPart(string email)
         {
-            throw new NotImplementedException();
+            
         }
 
         // uppercase and lowercase Latin letters A to Z and a to z;
