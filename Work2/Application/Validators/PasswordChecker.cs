@@ -6,17 +6,17 @@ namespace Validator
     {
         public bool LongerThan(string password, int x)
         {
-            throw new NotImplementedException();
+            return password.length() >= x;
         }
 
         public bool ContainsUppercase(string password)
         {
-            throw new NotImplementedException();
+            return password.Any(c => char.IsUpper(c));
         }
 
         public bool ContainsSpecialCharacter(string password)
         {
-            throw new NotImplementedException();
+            return password.Any(c => !Char.IsLetterOrDigit(ch))
         }
     }
 }
