@@ -52,7 +52,7 @@ namespace Validators
         public bool IsValidInCountry(string phoneNumber, CountryIso countryIso)
         {
             rule = CountryRulesProvider.GetCountryRule(countryIso);
-            return (phoneNumber.length() === rule.Length && phoneNumber.StartsWith(rule.PhoneNumberPrefix));
+            return (phoneNumber.length() == rule.Length && phoneNumber.StartsWith(rule.PhoneNumberPrefix));
         }
     }
 }
