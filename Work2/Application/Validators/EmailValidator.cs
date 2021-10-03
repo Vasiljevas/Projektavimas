@@ -10,7 +10,7 @@ namespace Validators
         public bool IsValidAtSign(string email)
         {
             int numberOfChars = CharCounter.CountChars(email, '@');
-            if(numberOfChars !== 1 || email.StartsWith('@') || email.EndsWith('@'))  
+            if(numberOfChars != 1 || email.StartsWith('@') || email.EndsWith('@'))  
             {
                 return false;
             }
