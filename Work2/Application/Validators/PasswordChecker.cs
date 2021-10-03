@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Linq;
 
 namespace Validator
 {
@@ -6,7 +7,7 @@ namespace Validator
     {
         public bool LongerThan(string password, int x)
         {
-            return password.Length() >= x;
+            return password.Length >= x;
         }
 
         public bool ContainsUppercase(string password)
@@ -16,7 +17,7 @@ namespace Validator
 
         public bool ContainsSpecialCharacter(string password)
         {
-            return password.Any(c => !Char.IsLetterOrDigit(ch));
+            return password.Any(c => !Char.IsLetterOrDigit(c));
         }
     }
 }

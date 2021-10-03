@@ -1,5 +1,5 @@
 ﻿using System;
-using Common.CharCounter;
+using Common;
 
 namespace Validators
 {
@@ -9,7 +9,8 @@ namespace Validators
         // Appears only once
         public bool IsValidAtSign(string email)
         {
-            int numberOfChars = CharCounter.CountChars(email, '@');
+            CharCounter func = new CharCounter();
+            int numberOfChars = func.CountChars(email, '@');
             if(numberOfChars != 1 || email.StartsWith('@') || email.EndsWith('@'))  
             {
                 return false;
@@ -24,7 +25,7 @@ namespace Validators
         // after it @ should follow
         public bool IsValidLocalPart(string email)
         {
-            if(email.Length() < 2)
+            if(email.Length < 2)
             {
                 return false;
             }
@@ -32,7 +33,7 @@ namespace Validators
             {
                 return false;
             }
-            for(int i = 0; i < email.Length(); i++)
+            for(int i = 0; i < email.Length; i++)
             {
                 if(i != 0)
                 {
@@ -56,7 +57,7 @@ namespace Validators
         {
             string[] subs = email.Split('@');
             string needed = subs[1];
-            if(needed.Length() < 2)
+            if(needed.Length < 2)
             {
                 return false;
             }
@@ -75,13 +76,13 @@ namespace Validators
         // MUST be at least 2 characters long and MAY be as long as 63 characters
         public bool IsValidTopLevelDomain(string email)
         {
-            if(email.Length() == 0)
+            if(email.Length == 0)
             {
                 return false;
             }
             string[] subs = email.Split('@');
-            string needed = subs[1].Split('.');
-            if(needed.Length() < 2 || needed.Length() > 63)
+            string needed = subs[1].Split('.')[1];
+            if(needed.Length < 2 || needed.Length > 63)
             {
                 return false;
             }

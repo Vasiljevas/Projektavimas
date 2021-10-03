@@ -8,29 +8,29 @@ namespace Common
         {
             switch (countryIso)
             {
-                case countryIso.LT:
+                case CountryIso.LT:
                 {
-                    return new CountryRule(countryIso.LT, 8, "+370");
+                    return new CountryRule() { CountryIso = CountryIso.LT,Length= 8,PhoneNumberPrefix= "+370" };
                 }
-                case countryIso.PL:
+                case CountryIso.PL:
                 {
-                    return new CountryRule(countryIso.PL, 7, "+48");
+                    return new CountryRule() {CountryIso = CountryIso.PL, Length  = 7, PhoneNumberPrefix = "+48" };
                 }
-                case countryIso.GB:
+                case CountryIso.GB:
                 {
-                    return new CountryRule(countryIso.GB, 10, "+44");
+                    return new CountryRule() { CountryIso = CountryIso.GB, Length = 10, PhoneNumberPrefix = "+44"};
                 }
-                case countryIso.NO:
+                case CountryIso.NO:
                 {
-                    return new CountryRule(countrIso.NO, 6, "+47");
+                    return new CountryRule() { CountryIso = CountryIso.NO,Length = 6,PhoneNumberPrefix = "+47" };
                 }
-                case countryIso.DK:
+                case CountryIso.DK:
                 {
-                    return new CountryRule(countrIso.DK, 6, "+45");
+                    return new CountryRule() { CountryIso = CountryIso.DK,Length = 6, PhoneNumberPrefix = "+45" };
                 }
                 default:
                 {
-                    return new CountryRule(countrIso.LT, 8, "+370");
+                    return new CountryRule() { CountryIso = CountryIso.LT, Length = 8, PhoneNumberPrefix = "+370" };
                 }
             }
         }

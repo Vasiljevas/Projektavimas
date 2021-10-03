@@ -1,0 +1,15 @@
+C:\Users\User\Desktop\VU\3 kursas\5 semestras\PSP\Lab1.1\Projektavimas\Work2\Application\Validators\obj\Debug\net5.0\Validators.csproj.AssemblyReference.cache
+C:\Users\User\Desktop\VU\3 kursas\5 semestras\PSP\Lab1.1\Projektavimas\Work2\Application\Validators\obj\Debug\net5.0\Validators.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\Desktop\VU\3 kursas\5 semestras\PSP\Lab1.1\Projektavimas\Work2\Application\Validators\obj\Debug\net5.0\Validators.AssemblyInfoInputs.cache
+C:\Users\User\Desktop\VU\3 kursas\5 semestras\PSP\Lab1.1\Projektavimas\Work2\Application\Validators\obj\Debug\net5.0\Validators.AssemblyInfo.cs
+C:\Users\User\Desktop\VU\3 kursas\5 semestras\PSP\Lab1.1\Projektavimas\Work2\Application\Validators\obj\Debug\net5.0\Validators.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\VU\3 kursas\5 semestras\PSP\Lab1.1\Projektavimas\Work2\Application\Validators\bin\Debug\net5.0\Validators.deps.json
+C:\Users\User\Desktop\VU\3 kursas\5 semestras\PSP\Lab1.1\Projektavimas\Work2\Application\Validators\bin\Debug\net5.0\Validators.dll
+C:\Users\User\Desktop\VU\3 kursas\5 semestras\PSP\Lab1.1\Projektavimas\Work2\Application\Validators\bin\Debug\net5.0\ref\Validators.dll
+C:\Users\User\Desktop\VU\3 kursas\5 semestras\PSP\Lab1.1\Projektavimas\Work2\Application\Validators\bin\Debug\net5.0\Validators.pdb
+C:\Users\User\Desktop\VU\3 kursas\5 semestras\PSP\Lab1.1\Projektavimas\Work2\Application\Validators\bin\Debug\net5.0\Common.dll
+C:\Users\User\Desktop\VU\3 kursas\5 semestras\PSP\Lab1.1\Projektavimas\Work2\Application\Validators\bin\Debug\net5.0\Common.pdb
+C:\Users\User\Desktop\VU\3 kursas\5 semestras\PSP\Lab1.1\Projektavimas\Work2\Application\Validators\obj\Debug\net5.0\Validators.csproj.CopyComplete
+C:\Users\User\Desktop\VU\3 kursas\5 semestras\PSP\Lab1.1\Projektavimas\Work2\Application\Validators\obj\Debug\net5.0\Validators.dll
+C:\Users\User\Desktop\VU\3 kursas\5 semestras\PSP\Lab1.1\Projektavimas\Work2\Application\Validators\obj\Debug\net5.0\ref\Validators.dll
+C:\Users\User\Desktop\VU\3 kursas\5 semestras\PSP\Lab1.1\Projektavimas\Work2\Application\Validators\obj\Debug\net5.0\Validators.pdb

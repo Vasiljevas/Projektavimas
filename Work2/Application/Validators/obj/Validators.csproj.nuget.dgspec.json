@@ -25,7 +25,8 @@
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net50": {
+          "net5.0": {
+            "targetAlias": "net5.0",
             "projectReferences": {}
           }
         },
@@ -36,8 +37,24 @@
         }
       },
       "frameworks": {
-        "net50": {
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.413\\RuntimeIdentifierGraph.json"
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.401\\RuntimeIdentifierGraph.json"
         }
       }
     },
@@ -62,7 +79,8 @@
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net50": {
+          "net5.0": {
+            "targetAlias": "net5.0",
             "projectReferences": {
               "C:\\Users\\User\\Desktop\\VU\\3 kursas\\5 semestras\\PSP\\Lab1.1\\Projektavimas\\Work2\\Application\\Common\\Common.csproj": {
                 "projectPath": "C:\\Users\\User\\Desktop\\VU\\3 kursas\\5 semestras\\PSP\\Lab1.1\\Projektavimas\\Work2\\Application\\Common\\Common.csproj"
@@ -77,8 +95,24 @@
         }
       },
       "frameworks": {
-        "net50": {
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.413\\RuntimeIdentifierGraph.json"
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.401\\RuntimeIdentifierGraph.json"
         }
       }
     }

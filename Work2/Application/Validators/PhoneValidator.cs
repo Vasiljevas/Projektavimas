@@ -13,8 +13,8 @@ namespace Validators
                 {
                     return false;
                 }
-                return true;
             }
+            return true;
         }
 
         // Breaks SOLID
@@ -22,16 +22,16 @@ namespace Validators
         public string ConvertToInternationalPhoneNumber(string phoneNumber)
         {
             char first = phoneNumber[0];
-            CountryRule rule = new CountryRule();
+            CountryRulesProvider prov = new CountryRulesProvider();
             if(phoneNumber[0] == '8')
             {
-                rule = CountryRulesProvider.GetCountryRule(CountryIso.LT);
+                var rule = prov.GetCountryRule(CountryIso.LT);
                 string trimmed = phoneNumber.Substring(1);
                 return rule.PhoneNumberPrefix + trimmed;
             }
             else if(phoneNumber.StartsWith("07"))
             {
-                rule = CountryRulesProvider.GetCountryRule(CountryIso.GB);
+                var rule  = prov.GetCountryRule(CountryIso.GB);
                 string trimmed = phoneNumber.Substring(2);
                 return rule.PhoneNumberPrefix + trimmed;
             }
@@ -51,8 +51,9 @@ namespace Validators
 
         public bool IsValidInCountry(string phoneNumber, CountryIso countryIso)
         {
-            rule = CountryRulesProvider.GetCountryRule(countryIso);
-            return (phoneNumber.length() == rule.Length && phoneNumber.StartsWith(rule.PhoneNumberPrefix));
+            CountryRulesProvider prov = new CountryRulesProvider();
+            var rule = prov.GetCountryRule(countryIso);
+            return (phoneNumber.Length == rule.Length && phoneNumber.StartsWith(rule.PhoneNumberPrefix));
         }
     }
 }
