@@ -6,7 +6,7 @@ namespace Validator
     {
         public bool LongerThan(string password, int x)
         {
-            return password.length() >= x;
+            return password.Length() >= x;
         }
 
         public bool ContainsUppercase(string password)

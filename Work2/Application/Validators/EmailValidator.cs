@@ -24,7 +24,29 @@ namespace Validators
         // after it @ should follow
         public bool IsValidLocalPart(string email)
         {
-            
+            if(email.Length() < 2)
+            {
+                return false;
+            }
+            if(email.StartsWith('.') || email.EndsWith('.'))
+            {
+                return false;
+            }
+            for(int i = 0; i < email.Length(); i++)
+            {
+                if(i != 0)
+                {
+                    if(email[i] == '.' && email[i-1] == '.')
+                    {
+                        return false;
+                    }
+                }
+            }
+            if(!email.EndsWith("@"))
+            {
+                return false;
+            }
+            return true;
         }
 
         // uppercase and lowercase Latin letters A to Z and a to z;
@@ -32,14 +54,49 @@ namespace Validators
         // should appear after @
         public bool IsValidDomain(string email)
         {
-            throw new NotImplementedException();
+            string[] subs = email.Split('@');
+            string needed = subs[1];
+            if(needed.Length() < 2)
+            {
+                return false;
+            }
+            if(needed.Contains('@'))
+            {
+                return false;
+            }
+            if(!needed.Contains('.'))
+            {
+                return false;
+            }
+            return true;
         }
 
         // uppercase and lowercase Latin letters A to Z and a to z;
         // MUST be at least 2 characters long and MAY be as long as 63 characters
         public bool IsValidTopLevelDomain(string email)
         {
-            throw new NotImplementedException();
+            if(email.Length() == 0)
+            {
+                return false;
+            }
+            string[] subs = email.Split('@');
+            string needed = subs[1].Split('.');
+            if(needed.Length() < 2 || needed.Length() > 63)
+            {
+                return false;
+            }
+            if(needed.Contains('@'))
+            {
+                return false;
+            }
+            foreach(char c in needed)
+            {
+                if(c >= '0' && c <= '9')
+                {
+                    return false;
+                }
+            }
+            return true;
         }
     }
 }
