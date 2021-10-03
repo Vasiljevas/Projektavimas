@@ -1,5 +1,6 @@
 ﻿using System;
 using Common;
+using System.Linq;
 
 namespace Validators
 {
@@ -11,7 +12,7 @@ namespace Validators
         {
             CharCounter func = new CharCounter();
             int numberOfChars = func.CountChars(email, '@');
-            if(numberOfChars != 1 || email.StartsWith('@') || email.EndsWith('@'))  
+            if(numberOfChars != 1)  
             {
                 return false;
             }
@@ -29,7 +30,7 @@ namespace Validators
             {
                 return false;
             }
-            if(email.StartsWith('.') || email.EndsWith('.'))
+            if(email.StartsWith('.') || email.EndsWith('.') || (email.EndsWith('@') && email[email.Length - 2] == '.'))
             {
                 return false;
             }
@@ -55,17 +56,47 @@ namespace Validators
         // should appear after @
         public bool IsValidDomain(string email)
         {
+            if(email.Length == 0)
+            {
+                return false;
+            }
             string[] subs = email.Split('@');
             string needed = subs[1];
             if(needed.Length < 2)
             {
                 return false;
             }
-            if(needed.Contains('@'))
+            foreach (char c in needed)
+            {
+                if (c >= '0' && c <= '9')
+                {
+                    return false;
+                }
+            }
+            if (needed.Contains('@'))
             {
                 return false;
             }
             if(!needed.Contains('.'))
+            {
+                return false;
+            }
+            for (int i = 0; i < needed.Length; i++)
+            {
+                if (i != 0)
+                {
+                    if (needed[i] == '.' && needed[i - 1] == '.')
+                    {
+                        return false;
+                    }
+                }
+            }
+            string[] dom = needed.Split('.');
+            if(dom.Length > 2)
+            {
+                return false;
+            }
+            if(dom[0].StartsWith('-') || dom[0].EndsWith('-'))
             {
                 return false;
             }
@@ -86,7 +117,7 @@ namespace Validators
             {
                 return false;
             }
-            if(needed.Contains('@'))
+            if(needed.Any(ch => !Char.IsLetterOrDigit(ch)))
             {
                 return false;
             }

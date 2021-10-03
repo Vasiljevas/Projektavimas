@@ -7,6 +7,10 @@ namespace Validators
     {
         public bool ContainsOnlyNumbers(string phoneNumber)
         {
+            if(phoneNumber == "")
+            {
+                return false;
+            }
             foreach(char c in phoneNumber)
             {
                 if(c < '0' || c > '9')
@@ -21,7 +25,10 @@ namespace Validators
         // As Validator should be responsible only for validation
         public string ConvertToInternationalPhoneNumber(string phoneNumber)
         {
-            char first = phoneNumber[0];
+            if(phoneNumber == "")
+            {
+                return phoneNumber;
+            }
             CountryRulesProvider prov = new CountryRulesProvider();
             if(phoneNumber[0] == '8')
             {
