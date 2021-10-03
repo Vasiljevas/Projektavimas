@@ -60,7 +60,11 @@ namespace Validators
         {
             CountryRulesProvider prov = new CountryRulesProvider();
             var rule = prov.GetCountryRule(countryIso);
-            return (phoneNumber.Length == rule.Length && phoneNumber.StartsWith(rule.PhoneNumberPrefix));
+            if(phoneNumber.Length <= rule.PhoneNumberPrefix.Length)
+            {
+                return false;
+            }
+            return (phoneNumber.StartsWith(rule.PhoneNumberPrefix));
         }
     }
 }
