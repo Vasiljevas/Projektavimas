@@ -16,7 +16,7 @@ namespace Validator
 
         public bool ContainsSpecialCharacter(string password)
         {
-            return password.Any(c => !Char.IsLetterOrDigit(ch))
+            return password.Any(c => !Char.IsLetterOrDigit(ch));
         }
     }
 }
