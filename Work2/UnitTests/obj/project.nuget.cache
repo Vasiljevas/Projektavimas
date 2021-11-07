@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Zxv14+hFE6tzDz1ITV8M8MBm75ta2cBGhiUILuyYEliSFM26xXvOlcvv3psDHd97yxG/vyO6eJraz6jVYfTsaA==",
+  "dgSpecHash": "UxGd5jo7Km/D+IsiLp0eQlFg40jAyPoagHVhJAfg/BoTB7G1WD5EvpItJ684N9mcz1w2qXpiruPU+uh6uFSO2A==",
   "success": true,
-  "projectFilePath": "C:\\Users\\User\\Desktop\\VU\\3 kursas\\5 semestras\\PSP\\Lab1.1\\Projektavimas\\Work2\\UnitTests\\UnitTests.csproj",
+  "projectFilePath": "c:\\Users\\User\\Desktop\\VU\\3 kursas\\5 semestras\\PSP\\Lab1.1\\Projektavimas\\Work2\\UnitTests\\UnitTests.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\User\\.nuget\\packages\\castle.core\\4.4.0\\castle.core.4.4.0.nupkg.sha512",
     "C:\\Users\\User\\.nuget\\packages\\coverlet.collector\\1.3.0\\coverlet.collector.1.3.0.nupkg.sha512",

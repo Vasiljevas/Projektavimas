@@ -6327,11 +6327,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\User\\Desktop\\VU\\3 kursas\\5 semestras\\PSP\\Lab1.1\\Projektavimas\\Work2\\UnitTests\\UnitTests.csproj",
+      "projectUniqueName": "c:\\Users\\User\\Desktop\\VU\\3 kursas\\5 semestras\\PSP\\Lab1.1\\Projektavimas\\Work2\\UnitTests\\UnitTests.csproj",
       "projectName": "UnitTests",
-      "projectPath": "C:\\Users\\User\\Desktop\\VU\\3 kursas\\5 semestras\\PSP\\Lab1.1\\Projektavimas\\Work2\\UnitTests\\UnitTests.csproj",
+      "projectPath": "c:\\Users\\User\\Desktop\\VU\\3 kursas\\5 semestras\\PSP\\Lab1.1\\Projektavimas\\Work2\\UnitTests\\UnitTests.csproj",
       "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\User\\Desktop\\VU\\3 kursas\\5 semestras\\PSP\\Lab1.1\\Projektavimas\\Work2\\UnitTests\\obj\\",
+      "outputPath": "c:\\Users\\User\\Desktop\\VU\\3 kursas\\5 semestras\\PSP\\Lab1.1\\Projektavimas\\Work2\\UnitTests\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -6348,11 +6348,11 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "C:\\Users\\User\\Desktop\\VU\\3 kursas\\5 semestras\\PSP\\Lab1.1\\Projektavimas\\Work2\\Application\\Common\\Common.csproj": {
-              "projectPath": "C:\\Users\\User\\Desktop\\VU\\3 kursas\\5 semestras\\PSP\\Lab1.1\\Projektavimas\\Work2\\Application\\Common\\Common.csproj"
+            "c:\\Users\\User\\Desktop\\VU\\3 kursas\\5 semestras\\PSP\\Lab1.1\\Projektavimas\\Work2\\Application\\Common\\Common.csproj": {
+              "projectPath": "c:\\Users\\User\\Desktop\\VU\\3 kursas\\5 semestras\\PSP\\Lab1.1\\Projektavimas\\Work2\\Application\\Common\\Common.csproj"
             },
-            "C:\\Users\\User\\Desktop\\VU\\3 kursas\\5 semestras\\PSP\\Lab1.1\\Projektavimas\\Work2\\Application\\Validators\\Validators.csproj": {
-              "projectPath": "C:\\Users\\User\\Desktop\\VU\\3 kursas\\5 semestras\\PSP\\Lab1.1\\Projektavimas\\Work2\\Application\\Validators\\Validators.csproj"
+            "c:\\Users\\User\\Desktop\\VU\\3 kursas\\5 semestras\\PSP\\Lab1.1\\Projektavimas\\Work2\\Application\\Validators\\Validators.csproj": {
+              "projectPath": "c:\\Users\\User\\Desktop\\VU\\3 kursas\\5 semestras\\PSP\\Lab1.1\\Projektavimas\\Work2\\Application\\Validators\\Validators.csproj"
             }
           }
         }
@@ -6411,7 +6411,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.401\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.402\\RuntimeIdentifierGraph.json"
       }
     }
   }
