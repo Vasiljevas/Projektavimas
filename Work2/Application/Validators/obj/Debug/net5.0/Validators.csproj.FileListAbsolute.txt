@@ -9,7 +9,6 @@ C:\Users\User\Desktop\VU\3 kursas\5 semestras\PSP\Lab1.1\Projektavimas\Work2\App
 C:\Users\User\Desktop\VU\3 kursas\5 semestras\PSP\Lab1.1\Projektavimas\Work2\Application\Validators\bin\Debug\net5.0\Validators.pdb
 C:\Users\User\Desktop\VU\3 kursas\5 semestras\PSP\Lab1.1\Projektavimas\Work2\Application\Validators\bin\Debug\net5.0\Common.dll
 C:\Users\User\Desktop\VU\3 kursas\5 semestras\PSP\Lab1.1\Projektavimas\Work2\Application\Validators\bin\Debug\net5.0\Common.pdb
-C:\Users\User\Desktop\VU\3 kursas\5 semestras\PSP\Lab1.1\Projektavimas\Work2\Application\Validators\obj\Debug\net5.0\Validators.csproj.CopyComplete
 C:\Users\User\Desktop\VU\3 kursas\5 semestras\PSP\Lab1.1\Projektavimas\Work2\Application\Validators\obj\Debug\net5.0\Validators.dll
 C:\Users\User\Desktop\VU\3 kursas\5 semestras\PSP\Lab1.1\Projektavimas\Work2\Application\Validators\obj\Debug\net5.0\ref\Validators.dll
 C:\Users\User\Desktop\VU\3 kursas\5 semestras\PSP\Lab1.1\Projektavimas\Work2\Application\Validators\obj\Debug\net5.0\Validators.pdb

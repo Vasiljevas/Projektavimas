@@ -103,7 +103,6 @@ C:\Users\User\Desktop\VU\3 kursas\5 semestras\PSP\Lab1.1\Projektavimas\Work2\Uni
 C:\Users\User\Desktop\VU\3 kursas\5 semestras\PSP\Lab1.1\Projektavimas\Work2\UnitTests\bin\Debug\net5.0\Validators.dll
 C:\Users\User\Desktop\VU\3 kursas\5 semestras\PSP\Lab1.1\Projektavimas\Work2\UnitTests\bin\Debug\net5.0\Common.pdb
 C:\Users\User\Desktop\VU\3 kursas\5 semestras\PSP\Lab1.1\Projektavimas\Work2\UnitTests\bin\Debug\net5.0\Validators.pdb
-C:\Users\User\Desktop\VU\3 kursas\5 semestras\PSP\Lab1.1\Projektavimas\Work2\UnitTests\obj\Debug\net5.0\UnitTests.csproj.CopyComplete
 C:\Users\User\Desktop\VU\3 kursas\5 semestras\PSP\Lab1.1\Projektavimas\Work2\UnitTests\obj\Debug\net5.0\UnitTests.dll
 C:\Users\User\Desktop\VU\3 kursas\5 semestras\PSP\Lab1.1\Projektavimas\Work2\UnitTests\obj\Debug\net5.0\ref\UnitTests.dll
 C:\Users\User\Desktop\VU\3 kursas\5 semestras\PSP\Lab1.1\Projektavimas\Work2\UnitTests\obj\Debug\net5.0\UnitTests.pdb
