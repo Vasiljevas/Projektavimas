@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\User\\Desktop\\VU\\3 kursas\\5 semestras\\PSP\\Lab1.1\\Projektavimas\\Work3\\Work3.csproj",
+      "projectUniqueName": "C:\\Users\\User\\Desktop\\VU\\3 kursas\\5 semestras\\PSP\\Lab1.1\\Projektavimas\\Work3\\Application\\Work3.csproj",
       "projectName": "Work3",
-      "projectPath": "C:\\Users\\User\\Desktop\\VU\\3 kursas\\5 semestras\\PSP\\Lab1.1\\Projektavimas\\Work3\\Work3.csproj",
+      "projectPath": "C:\\Users\\User\\Desktop\\VU\\3 kursas\\5 semestras\\PSP\\Lab1.1\\Projektavimas\\Work3\\Application\\Work3.csproj",
       "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\User\\Desktop\\VU\\3 kursas\\5 semestras\\PSP\\Lab1.1\\Projektavimas\\Work3\\obj\\",
+      "outputPath": "C:\\Users\\User\\Desktop\\VU\\3 kursas\\5 semestras\\PSP\\Lab1.1\\Projektavimas\\Work3\\Application\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
