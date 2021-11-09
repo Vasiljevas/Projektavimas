@@ -1,0 +1,5 @@
+C:\Users\User\Desktop\VU\3 kursas\5 semestras\PSP\Lab1.1\Projektavimas\Work3\ApplicationTests\obj\Debug\net6.0\ApplicationTests.csproj.AssemblyReference.cache
+C:\Users\User\Desktop\VU\3 kursas\5 semestras\PSP\Lab1.1\Projektavimas\Work3\ApplicationTests\obj\Debug\net6.0\ApplicationTests.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\Desktop\VU\3 kursas\5 semestras\PSP\Lab1.1\Projektavimas\Work3\ApplicationTests\obj\Debug\net6.0\ApplicationTests.AssemblyInfoInputs.cache
+C:\Users\User\Desktop\VU\3 kursas\5 semestras\PSP\Lab1.1\Projektavimas\Work3\ApplicationTests\obj\Debug\net6.0\ApplicationTests.AssemblyInfo.cs
+C:\Users\User\Desktop\VU\3 kursas\5 semestras\PSP\Lab1.1\Projektavimas\Work3\ApplicationTests\obj\Debug\net6.0\ApplicationTests.csproj.CoreCompileInputs.cache
